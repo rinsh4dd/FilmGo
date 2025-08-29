@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "mkdir -p node_modules/@tailwindcss/vite && echo \"export default function() {}\" > node_modules/@tailwindcss/vite/index.js"
   },
   "dependencies": {
     "react": "^19.1.1",
