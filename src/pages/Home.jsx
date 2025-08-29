@@ -6,7 +6,6 @@ import {
 } from "../services/tmdb";
 import MovieCard from "../Components/MovieCard"; // Import the separated MovieCard
 import logo from "../assets/images/FilmGoFavicon.jpg";
-import FilmGoFooter from "../Components/Footer";
 import MovieLoader from "../Components/Loader";
 
 const Home = () => {
@@ -256,7 +255,6 @@ const Home = () => {
       </div>
 
       {/* Premium Footer */}
-      <FilmGoFooter/>
 
       <style jsx>{`
         @keyframes fadeInUp {
